@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+#banner{
+    font-size:24pt;
+}
+
+a.nav {
+	color:#ffffff;
+	font-size:12pt;
+	font-weight:normal;
+}
+
+div.student{
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+
+div.title{
+    font-size: 10pt;
+    text-decoration: underline;
+    font-family: 'Libre Baskerville', serif;
+}
+

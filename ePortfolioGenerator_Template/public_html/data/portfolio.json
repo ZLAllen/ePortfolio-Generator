@@ -1,0 +1,30 @@
+{
+    "template": "layout.css",
+    "color": "color.css",
+    "student": "Allen Li",
+    "navbar": [
+        {
+          "title": "Home",
+          "link": "index.html"
+        },
+        
+        {
+           "title": "Homework", 
+           "link": "./index.html"
+        },
+        
+        {
+            "title": "Grading",
+            "link": "./index.html"
+        }
+    ],
+    "page" : {
+            "title": "Homepage",
+            "footer": "Sunny Day",
+            "banner": "test_banner_1.jpg",    
+            
+            "component":[
+                
+            ]
+        }
+}
