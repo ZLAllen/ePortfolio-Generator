@@ -5,13 +5,26 @@ and open the template in the editor.
 */
 
 #content {
-	position:absolute;
+	position:relative;
 	width:80%;
 	left:10%;
 	right:10%;
 	text-align:left;
-        padding:10px;
-        padding-bottom:40px;   /* Height of the footer */
+        min-height:100%;
+        height:auto;
+}
+
+div.footer{
+        position:fixed;
+        width:80%;
+        height:40px;
+        left:10%;
+        right:10%;
+        text-align:center;
+        background-color: #804715;   
+        bottom: 0px;
+        margin: 0px;
+        
 }
 
 img.sbu_navbar {
@@ -35,7 +48,7 @@ a.nav, a.open_nav {
 	padding-left:5px;
 	padding-right:20px;
 	padding-top:12px;
-	width:80px;
+	width:auto;
 }
 
 #banner {
@@ -86,19 +99,48 @@ div.title{
     width:100%;
     height:auto; 
     top: 170px;
+    padding-bottom:45px;
 }
 
-div.footer{
-    position:absolute;
-    width:80%;
-    height:40px; 
-    bottom: 0%;
-    left:10%;
-    right:10%;
-    text-align:center;
-    padding:10px;
-    background-color: #804715;
+p.text_layout{
+    text-align: center;
+    padding-top : 10px;
+    padding-bottom : 10px;
     
 }
 
+img.image_layout{
+    display: block;
+    margin: auto;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
 
+video.video_layout{
+    display: block;
+    margin: auto;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+
+#slide_img{
+    display: block; 
+    margin: auto;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+#slide_caption {
+    font-size:24pt;
+    text-align:center;
+}
+
+#slideshow_controls {
+    text-align: center;
+}
+
+input.control{
+    padding-left: 10px;
+    padding-right: 10px; 
+}

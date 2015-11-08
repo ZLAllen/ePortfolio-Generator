@@ -5,6 +5,8 @@ and open the template in the editor.
 */
 
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
 #banner{
     font-size:24pt;
 }
@@ -13,6 +15,14 @@ a.nav {
 	color:#ffffff;
 	font-size:12pt;
 	font-weight:normal;
+}
+
+a:link, a:active{
+    color: darkslateblue;
+}
+
+a:hover{
+    color: crimson;
 }
 
 div.student{
@@ -25,5 +35,13 @@ div.title{
     font-size: 10pt;
     text-decoration: underline;
     font-family: 'Libre Baskerville', serif;
+}
+
+a.hyperlink{
+    text-decoration: underline;
+}
+
+#slide_caption{
+    font-family: 'Indie Flower', cursive;
 }
 

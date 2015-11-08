@@ -30,3 +30,9 @@ div.student, div.title{
 #component{
     background-color: #D49A6A;
 }
+
+
+
+#slide_caption {
+    background-color:rgb(150,190,250);
+}
