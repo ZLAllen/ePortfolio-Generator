@@ -4,8 +4,8 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Quantico:700);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
 
 #banner{
     font-size:24pt;
@@ -28,13 +28,13 @@ a:hover{
 div.student{
     font-size: 14pt;
     font-weight: bold;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Quantico', sans-serif;
 }
 
 div.title{
     font-size: 10pt;
     text-decoration: underline;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Quantico', sans-serif;
 }
 
 a.hyperlink{
@@ -43,10 +43,10 @@ a.hyperlink{
 
 #slide_caption{
     font-size:16pt;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 #footer_text{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Quantico', sans-serif;
     font-weight: bold;
 }

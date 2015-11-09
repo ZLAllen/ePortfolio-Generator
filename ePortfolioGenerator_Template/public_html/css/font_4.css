@@ -4,8 +4,8 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 
 #banner{
     font-size:24pt;
@@ -28,13 +28,13 @@ a:hover{
 div.student{
     font-size: 14pt;
     font-weight: bold;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Racing Sans One', cursive;
 }
 
 div.title{
     font-size: 10pt;
     text-decoration: underline;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Racing Sans One', cursive;
 }
 
 a.hyperlink{
@@ -43,10 +43,10 @@ a.hyperlink{
 
 #slide_caption{
     font-size:16pt;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Great Vibes', cursive;
 }
 
 #footer_text{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Racing Sans One', cursive;
     font-weight: bold;
 }
