@@ -5,12 +5,11 @@ and open the template in the editor.
 */
 
 body{
-    background-color:#AA6C39;
+    background-color:#AA4D39;
 }
 
 #navbar {
 	background-color:#660000;
-	margin-top:5px;
 }
 
 
@@ -20,7 +19,7 @@ body{
 }
 
 #info{
-    background-color:#552600;
+    background-color:#550F00;
 }
 
 div.student, div.title{
@@ -28,11 +27,26 @@ div.student, div.title{
 }
 
 #component{
-    background-color: #D49A6A;
+    background-color: #D47C6A;
 }
 
 
 
 #slide_caption {
-    background-color:rgb(150,190,250);
+    background-color:#C69D94;
+    color: white;
+}
+
+hr{
+   border-color:rgb(167, 25, 48);
+}
+
+div.footer{
+    background-color: #550F00;  
+    text-align: center;
+}
+
+#footer_text{
+    color: white;
+    text-align: center;
 }

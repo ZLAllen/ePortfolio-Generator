@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+body{
+    background-color:#F8F887;
+}
+
+#navbar {
+	background-color:#660000;
+}
+
+
+#banner{
+    background-color: rgb(167, 25, 48);
+    color : white;
+}
+
+#info{
+    background-color:#555500;
+}
+
+div.student, div.title{
+    color: white;
+}
+
+#component{
+    background-color: #C6C694;
+}
+
+
+
+#slide_caption {
+    background-color:#D4D46A;
+    color: black;
+}
+
+hr{
+   border-color:rgb(167, 25, 48);
+}
+
+div.footer{
+    background-color: #555500;  
+    text-align: center;
+}
+
+#footer_text{
+    color: white;
+    text-align: center;
+}

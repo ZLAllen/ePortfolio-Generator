@@ -103,7 +103,7 @@ function initContent(){
     $("#student").html(student);
     $("#title").html(page.title);
     $("#banner_image").attr("src", IMG_PATH + page.banner);
-    $("#footer").html(page.footer);
+    $("#footer_text").html(page.footer);
     initComponent();
 }
 
@@ -128,17 +128,17 @@ function initComponent(){
                 appendText += tempText.substring(previousIndex);
                 
                 $("#component").append("<p class = 'text_layout' style = 'font-family:" + temp.text.family + 
-                        "'>" + appendText + "</p>");
+                        "'>" + appendText + "</p>" + "<hr>" );
                 $("head").append("<link href='" + temp.text.font +
                         "' rel='stylesheet' type='text/css'>");
                 break;
             case "image":
                 $("#component").append("<img id = 'image_comp' class = 'image_layout' style = 'width: " + temp.image.width + 
-                        "%' src = '"+ IMG_PATH + temp.image.image + "' alt = 'image not found'/> " );
+                        "%' src = '"+ IMG_PATH + temp.image.image + "' alt = 'image not found'/> " + "<hr>" );
                 break;
             case "video":
                 $("#component").append("<video id = 'video_comp' class = 'video_layout' style = 'width: "+ temp.video.width +
-                        "%' controls><source src='" + VIDEO_PATH + temp.video.video + "'type = 'video/mp4'> Your browser does not support the video tag.</video>");
+                        "%' controls><source src='" + VIDEO_PATH + temp.video.video + "'type = 'video/mp4'> Your browser does not support the video tag.</video> " + "<hr>" );
                 break;
             case "sildeshow":
                 var slideshowData = temp.slideShow.slides;
@@ -151,16 +151,17 @@ function initComponent(){
                 collection.push(slideshowObject);
                 
                 $("#component").append("<img id= 'slide_img' src = './img/ArchesUtah.jpg/'>" +
-                                    "<div id='slide_caption'></div>"+
+                                     "<div id='slide_caption'><p id = 'caption'></p></div>"+
                                     "<div id='slideshow_controls'>"+
                                     "<input class = 'control' id='previous_button' type='image' src='./icons/Previous.png' onclick='processPreviousRequest()'>"+
                                     "<input class = 'control 'id='play_pause_button' type='image' src='./icons/Play.png' onclick='processPlayPauseRequest()'>"+
-                                    "<input class = 'control 'id='next_button' type= 'image' src='./icons/Next.png' onclick='processNextRequest()'> </div>");
+                                    "<input class = 'control 'id='next_button' type= 'image' src='./icons/Next.png' onclick='processNextRequest()'> </div>"+
+                                      "<hr>");
                 
                 if(slideshowObject.slides.length > 0){
                     currentSlide = 0;
                     $("#slide_img").attr("src", IMG_PATH + slideshowObject.slides[0].imgFile);
-                    $("#slide_caption").html(slideshowObject.slides[0].caption);
+                    $("#caption").html(slideshowObject.slides[0].caption);
                     autoScaleImage();
                 }else{
                     currentSlide = -1;
