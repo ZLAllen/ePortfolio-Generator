@@ -4,8 +4,8 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 
-@import url(https://fonts.googleapis.com/css?family=Quantico:700);
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
 
 #banner{
     font-size:24pt;
@@ -13,8 +13,8 @@ and open the template in the editor.
 
 a.nav {
 	color:#ffffff;
-	font-size:12pt;
-	font-weight:normal;
+	font-size:10pt;
+	font-weight:bold;
 }
 
 a:link, a:active{
@@ -26,15 +26,16 @@ a:hover{
 }
 
 div.student{
-    font-size: 14pt;
+    font-size: 20pt;
     font-weight: bold;
-    font-family: 'Quantico', sans-serif;
+    font-family: 'Racing Sans One', cursive;
 }
 
+
 div.title{
-    font-size: 10pt;
+    font-size: 12pt;
     text-decoration: underline;
-    font-family: 'Quantico', sans-serif;
+    font-family: 'Racing Sans One', cursive;
 }
 
 a.hyperlink{
@@ -43,10 +44,10 @@ a.hyperlink{
 
 #slide_caption{
     font-size:16pt;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Great Vibes', cursive;
 }
 
 #footer_text{
-    font-family: 'Quantico', sans-serif;
+    font-family: 'Racing Sans One', cursive;
     font-weight: bold;
 }

@@ -4,8 +4,8 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Podkova);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 
 #banner{
     font-size:24pt;
@@ -13,8 +13,8 @@ and open the template in the editor.
 
 a.nav {
 	color:#ffffff;
-	font-size:12pt;
-	font-weight:normal;
+	font-size:10pt;
+	font-weight:bold;
 }
 
 a:link, a:active{
@@ -28,13 +28,13 @@ a:hover{
 div.student{
     font-size: 14pt;
     font-weight: bold;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Podkova', serif;
 }
 
 div.title{
-    font-size: 10pt;
+    font-size: 12pt;
     text-decoration: underline;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Podkova', serif;
 }
 
 a.hyperlink{
@@ -43,10 +43,10 @@ a.hyperlink{
 
 #slide_caption{
     font-size:16pt;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 
 #footer_text{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Podkova', serif;
     font-weight: bold;
 }

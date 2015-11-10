@@ -1,0 +1,135 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+#content {
+	position:relative;
+	width:100%;
+	text-align:left;
+        min-height:100%;
+        height:auto;
+}
+
+div.footer{
+        position:fixed;
+        width:100%;
+        height:40px;
+        text-align:center; 
+        bottom: 0px;
+        margin: 0px;
+        padding-bottom: 5px;
+        
+}
+
+
+img.sbu_navbar {
+    float:right;
+    margin-top:5px; 
+    width:28%;
+}
+
+#navbar {
+	position:absolute;
+	width:72%;
+	height:45px;
+	top:0px;
+        margin-top:5px;
+}
+
+a.nav, a.open_nav {
+	display:inline-block;
+	border:none ;
+	text-decoration:none;
+	text-align:center;
+	font-weight:bold;
+	padding-left:10px;
+	padding-right:20px;
+	padding-top:12px;
+	width:auto;
+}
+
+#banner {
+    position:absolute;
+    width:30%;
+    height:400px;
+    text-align:center;
+    top:90px;
+}
+
+#banner_image{
+    width:100%;
+    height:100%
+}
+
+#info{
+    position:absolute;
+    width:100%;
+    height:40px;
+    text-align:center;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    top:50px;
+}
+
+div.student,div.title{
+    display:inline-block;
+    border:none;
+    text-decoration:none;
+    padding-right:5px;
+    padding-top:3px;
+}
+
+
+#component{
+    position:absolute;
+    left:30%;
+    width:70%;
+    height:auto; 
+    top: 90px;
+    padding-bottom:45px;
+}
+
+p.text_layout{
+    text-align: center;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    
+}
+
+img.image_layout{
+    display: block;
+    margin: auto;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+video.video_layout{
+    display: block;
+    margin: auto;
+    padding-top : 20px;
+    padding-bottom : 10px;
+}
+
+
+#slide_img{
+    display: block; 
+    margin: auto;
+    padding-top : 10px;
+}
+
+#slide_caption {
+    text-align:center;
+}
+
+#slideshow_controls {
+    text-align: center;
+}
+
+input.control{
+    padding-left:10px;
+    padding-right:10px;
+}

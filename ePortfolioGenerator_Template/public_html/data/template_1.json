@@ -1,0 +1,151 @@
+{
+    "layout": "layout_1.css",
+    "color": "color_blue.css",
+    "font" : "font_1.css",
+    "student": "Allen Li",
+       "navbar": [
+        {
+          "title": "Home",
+          "link": "./index.html"
+        },
+        
+        {
+           "title": "Template_1", 
+           "link": "./template_1.html"
+        },
+        
+        {
+            "title": "Template_2",
+            "link": "./template_2.html"
+        },
+        
+        {
+            "title": "Template_3",
+            "link": "./template_3.html"
+        },
+        
+        {
+            "title": "Template_4",
+            "link": "./template_4.html"            
+        }
+    ],
+    "page" : {
+            "title": "Template_1",
+            "footer": "Sunny Day",
+            "banner": "test_banner_1.jpg",  
+            
+            "components": [
+                {
+                    "type": "text",
+                    
+                    "text": {
+                         "content": "This is My Lucky day",
+                         "font": "https://fonts.googleapis.com/css?family=Oswald",
+                         "family": "Oswald', sans-serif",
+                         "hyperlink":[
+                             {
+                                 "start": "0",
+                                 "end": "3",
+                                 "link": "https://www.google.com"
+                             },
+                             
+                             {
+                                 "start": "11",
+                                 "end": "15",
+                                 "link": "http://www3.cs.stonybrook.edu/~cse219/index.html"   
+                             }
+                         ]
+                    },
+                    
+                    "image":{
+                        
+                    },
+                    
+                    "video":{
+                        
+                    },
+                    
+                    "slideShow":{
+                        
+                    }
+                },
+                
+                {
+                    "type": "image",
+                    "text":{
+                        
+                    },                    
+                    
+                    "image": {
+                        "image" : "ArchesUtah.jpg",
+                        "width" : "50"
+                    },
+ 
+                    "video":{
+                        
+                    },
+                    
+                    "slideShow":{
+                        
+                    }
+                },
+                {
+                    "type": "sildeshow",
+                    "text":{
+                        
+                    },                    
+                    
+                    "image": {
+
+                    },
+ 
+                    "video": {
+                    
+                    },
+                    
+                    "slideShow":{
+                        "slides":[
+                            {
+                                "image_file_name":"ArchesUtah.jpg",
+                                "image_path":"C:\\Users\\McKillaGorilla\\Documents\\RTM\\StonyBrook\\Courses\\CSE219\\219_2015_Fall\\projects\\SlideShowMakerSolution\\images\\slide_show_images\\",
+                                "caption":"Arches"
+                             },
+                             {
+                                "image_file_name": "BryceCanyonUtah.jpg",
+                                "image_path": "C:\\Users\\McKillaGorilla\\Documents\\RTM\\StonyBrook\\Courses\\CSE219\\219_2015_Fall\\projects\\SlideShowMakerSolution\\images\\slide_show_images\\",
+                                "caption": "Bryce Canyon"
+                            },
+                            {
+                                "image_file_name": "SaltUtah.jpg",
+                                "image_path": "C:\\Users\\McKillaGorilla\\Documents\\RTM\\StonyBrook\\Courses\\CSE219\\219_2015_Fall\\projects\\SlideShowMakerSolution\\images\\slide_show_images\\",
+                                "caption": "Salt Flats"
+                            }
+                        ]
+                    }                       
+                }, 
+
+                {
+                    "type": "video",
+                    "text":{
+                        
+                    },                    
+                    
+                    "image": {
+
+                    },
+ 
+                    "video": {
+                    "video" : "test_video.mp4",
+                    "width" : "70"
+                    
+                    },
+                    
+                    "slideShow":{
+                        
+                    }
+                }
+                
+                   
+            ]
+        }
+}

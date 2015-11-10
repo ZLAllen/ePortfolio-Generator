@@ -8,6 +8,9 @@
 var IMG_PATH;
 var DATA_PATH;
 var CSS_PATH;
+var COLOR_PATH;
+var FONT_PATH;
+var LAYOUT_PATH;
 var VIDEO_PATH;
 var ICON_PATH;
 var SLIDESHOW_SLEEP_TIME;
@@ -24,6 +27,9 @@ var navbar;
 var page;
 var collection;
 var currentSlide;
+var font;
+var color;
+var layout;
 
 // TIMER FOR PLAYING SLIDESHOW
 var timer;
@@ -55,14 +61,18 @@ function NavObject(initTitle, initLink){
 
 
 function initPage(){
-    // var sPath = window.location.pathname;
-    // var sPage = sPath.substring(sPath.lastIndexOf('/')+1, sPath.lastIndexOf('.html'));
+    var sPath = window.location.pathname;
+    var sPage = sPath.substring(sPath.lastIndexOf('/')+1, sPath.lastIndexOf('.html'));
     
     IMG_PATH = "./img/";
     DATA_PATH = "./data/";
     CSS_PATH = "./css/";
     VIDEO_PATH = "./video/";
     ICON_PATH = "./icons/";
+    COLOR_PATH = CSS_PATH + "color/";
+    FONT_PATH = CSS_PATH + "font/";
+    LAYOUT_PATH = CSS_PATH +"layout/";
+    
     SCALED_IMAGE_HEIGHT = 300;
     SLIDESHOW_SLEEP_TIME = 3000;
     FADE_TIME = 1000;
@@ -72,9 +82,7 @@ function initPage(){
     collection = new Array();
     currentSlides = new Array();
     timer = null;
-    
-    // loadData(DATA_PATH + sPage + ".json");
-    loadData(DATA_PATH + "portfolio.json");
+    loadData(DATA_PATH + sPage + ".json");
     
 }
 
@@ -87,6 +95,9 @@ function loadData(jsonFile){
 
 function loadPage(pageData){
     student = pageData.student;
+    font = FONT_PATH + pageData.font;
+    color = COLOR_PATH + pageData.color;
+    layout = LAYOUT_PATH + pageData.layout;
     for(i=0;i<pageData.navbar.length;i++){
         var tempNav = pageData.navbar[i];
         navbar[i] = new NavObject(tempNav.title, tempNav.link);
@@ -104,6 +115,12 @@ function initContent(){
     $("#title").html(page.title);
     $("#banner_image").attr("src", IMG_PATH + page.banner);
     $("#footer_text").html(page.footer);
+    $("head").append("<link href='" + layout +
+                        "' rel='stylesheet' type='text/css'>");
+    $("head").append("<link href='" + color +
+                        "' rel='stylesheet' type='text/css'>");
+    $("head").append("<link href='" + font +
+                        "' rel='stylesheet' type='text/css'>");            
     initComponent();
 }
 

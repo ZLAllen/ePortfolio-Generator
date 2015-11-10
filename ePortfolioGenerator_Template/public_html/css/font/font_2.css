@@ -4,8 +4,8 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 
-@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
-@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
 
 #banner{
     font-size:24pt;
@@ -13,8 +13,8 @@ and open the template in the editor.
 
 a.nav {
 	color:#ffffff;
-	font-size:12pt;
-	font-weight:normal;
+	font-size:10pt;
+	font-weight:bold;
 }
 
 a:link, a:active{
@@ -28,13 +28,13 @@ a:hover{
 div.student{
     font-size: 14pt;
     font-weight: bold;
-    font-family: 'Racing Sans One', cursive;
+    font-family: 'Architects Daughter', cursive;
 }
 
 div.title{
-    font-size: 10pt;
+    font-size: 12pt;
     text-decoration: underline;
-    font-family: 'Racing Sans One', cursive;
+    font-family: 'Architects Daughter', cursive;
 }
 
 a.hyperlink{
@@ -43,10 +43,10 @@ a.hyperlink{
 
 #slide_caption{
     font-size:16pt;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
 }
 
 #footer_text{
-    font-family: 'Racing Sans One', cursive;
-    font-weight: bold;
+     font-family: 'Architects Daughter', cursive;
 }
+

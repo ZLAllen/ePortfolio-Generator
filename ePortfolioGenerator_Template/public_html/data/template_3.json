@@ -1,30 +1,36 @@
 {
-    "template": "layout.css",
-    "color": "color.css",
+    "layout": "layout_3.css",
+    "color": "color_green.css",
+    "font" : "font_3.css",
     "student": "Allen Li",
     "navbar": [
-        {
+               {
           "title": "Home",
-          "link": "https://www.google.com"
+          "link": "./index.html"
         },
         
         {
-           "title": "Coursework", 
-           "link": "https://www.google.com"
+           "title": "Template_1", 
+           "link": "./template_1.html"
         },
         
         {
-            "title": "Work Experience",
-            "link": "https://www.google.com"
+            "title": "Template_2",
+            "link": "./template_2.html"
         },
         
         {
-            "title": "Grading",
-            "link": "https://www.google.com"
+            "title": "Template_3",
+            "link": "./template_3.html"
+        },
+        
+        {
+            "title": "Template_4",
+            "link": "./template_4.html"            
         }
     ],
     "page" : {
-            "title": "Homepage",
+            "title": "Template_3",
             "footer": "Sunny Day",
             "banner": "test_banner_1.jpg",  
             
